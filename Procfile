@@ -1,1 +1,1 @@
-web: python predictfile.py
+web: gunicorn <predictfile>:app --log-file=-
